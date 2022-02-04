@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display&display=swap');
+.aboutMe-container{
+    height: 100%;
+    width: 100%;
+}
+.aboutMe{
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.aboutMe-text{
+    background: rgb(247, 247, 247);
+    width: 650px;
+
+}
+.aboutMe-image{
+    background-image: url(../../assets/photo.jpg);
+    height: 550px;
+    width: 650px;
+    background-size: cover;
+}
+.content-Center{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-text{
+text-align: start;
+}
+.content-aboutMe h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Playfair Display', serif;
+margin-bottom: 30px;
+}
+.content-aboutMe span{
+    margin-bottom: 25px;
+    
+}
+@media screen and (max-width:768px){
+    .aboutMe-image{
+        background-image: url(../../assets/photo.jpg);
+        height: 550px;
+        width: 650px;
+        background-size: cover;
+    }
+    .content-Center{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 45px;
+        
+    }
+    .aboutMe{
+        margin-top: 80px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+}
+

@@ -1,0 +1,54 @@
+.skills-Container{
+    height: 100%;
+    width: 100%;
+    background: rgb(247, 246, 246);
+    padding-bottom: 80px;
+}
+.skills-title{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.skills-title p{
+font-size: 1.2rem;
+
+}
+.skills-title h1{
+    margin-top: 50px;
+    
+    }
+.Row-Skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.Col-Skill{
+    height: 220px;
+    width: 190px;
+    border: 1px solid rgb(199, 197, 197) ;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    flex-flow: column;
+background: white;
+}
+.title-container p{
+    margin-left: 30%;
+}
+.div-Skill{
+    width: 100%;
+    text-align: center;
+}
+.Row-Skill :hover{
+    transform: translateY(-5px);
+
+}
+.skill-image{
+    height: 100px;
+    width: 70px;
+}
